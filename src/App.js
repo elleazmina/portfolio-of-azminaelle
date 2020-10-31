@@ -13,7 +13,7 @@ import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import Blogs from './pages/Blogs/Blogs';
 import ContactForm from './pages/ContactForm/ContactForm';
-import Timeline from './pages/Timeline/Timeline';
+import ProjectsTimeline from './components/ProjectsTimeline/ProjectsTimeline';
 
 
 const App = () => {
@@ -59,7 +59,7 @@ const App = () => {
         <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
-          <Timeline />
+          <ProjectsTimeline />
         </Slide>
       </Container>
       <Container className="container-box rounded">
