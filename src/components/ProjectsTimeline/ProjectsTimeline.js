@@ -6,10 +6,6 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import CreativeAgency from "../../assets/img/projects/CreativeAgency.png";
 import EmaJohn from "../../assets/img/projects/EmaJohn.png";
 import TravelGuru from "../../assets/img/projects/TravelGuru.png";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -362,7 +358,7 @@ const ProjectsTimeline = () => {
           </ImageEvent>
 
           {/* Project: Smart Brain */}
-          <ImageEvent
+          {/* <ImageEvent
             date="21/01/2020"
             className="text-center"
             text="Smart Brain Face Detect app"
@@ -485,7 +481,7 @@ const ProjectsTimeline = () => {
 
           {/* Project: RoboFriends */}
 
-          <ImageEvent
+          {/* <ImageEvent
             date="14/01/2020"
             className="text-center"
             text="RoboFriends"
@@ -594,11 +590,11 @@ const ProjectsTimeline = () => {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
 
           {/* Project: Product_Hunt_Clone */}
 
-          <ImageEvent
+          {/* <ImageEvent
             date="15/12/2019"
             className="text-center"
             text="Product Hunt Clone"
@@ -704,10 +700,10 @@ const ProjectsTimeline = () => {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
 
           {/* Project: Portfolio using Django */}
-          <ImageEvent
+          {/* <ImageEvent
             date="07/12/2019"
             className="text-center"
             text="Portfolio using Django"
@@ -834,8 +830,8 @@ const ProjectsTimeline = () => {
                   WATCH VIDEO
                 </UrlButton>
               </div>
-            </div>
-          </ImageEvent>
+            </div> */}
+          {/* </ImageEvent> */} */}
         </Events>
       </Timeline>
     </div>
